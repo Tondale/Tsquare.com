@@ -1,0 +1,64 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(23, 22, 22);
+    
+}
+
+.header{
+    min-height: 100vh;
+   width: 100%;}
+
+ul{
+    list-style: none;
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    
+}
+
+ul a{
+    padding: 8px 12px;
+    display: inline-block;
+    display: block;
+    color: white;
+
+}
+.un{
+    color: rgb(151, 217, 244);
+
+}
+h3{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    
+}
+
+.deux{
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+.t-code{
+    display: flex;
+    gap: 20px;
+ 
+}
+.t-code li a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+.t-code li a:hover{
+    background-color: rgb(32, 41, 138);
+    transition: 0.5s;
+    color: antiquewhite;
+    border: solid,2px,rgb(71, 24, 24);
+}
